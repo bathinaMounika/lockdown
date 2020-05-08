@@ -1,0 +1,27 @@
+[
+  {
+    "model": "company.title",
+    "pk": 1,
+    "fields": {"title_name": "marketer"}
+  },
+  {
+    "model": "company.title",
+    "pk": 5,
+    "fields": {"title_name": "SDE"}
+  },
+  {
+    "model": "company.city",
+    "pk": 4,
+    "fields": {"city_name": "Visakhapatnam"}
+  },
+  {
+    "model": "company.employee",
+    "pk": 3,
+    "fields": {"employee_name":"mounika", "employee_city": 4, "employee_title": 1}
+  },
+  {
+    "model": "company.employee",
+    "pk": 5,
+    "fields": {"employee_name": "madhan", "employee_title": 5, "employee_city": 4}
+  }
+]
